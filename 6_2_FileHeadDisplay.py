@@ -1,0 +1,5 @@
+filename = input('Please enter file name :  ')
+file = open(filename+'.txt', 'r')
+fileread = file.read()
+file.close()
+print(fileread)
