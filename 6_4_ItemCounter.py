@@ -1,14 +1,13 @@
 def main():
     txtFile = open('philosophers.txt', 'r')
-    line = txtFile.readline()
+    lineContent = txtFile.readline()
     noOfLines = 0
 
-    while(line != ""):
+    while(lineContent != ""):
         noOfLines = noOfLines+1
-        line = txtFile.readline()
+        llineContentine = txtFile.readline()
 
     print('The number of line that are in philosophers.txt is: ', noOfLines)
     txtFile.close()
-
 
 main()
